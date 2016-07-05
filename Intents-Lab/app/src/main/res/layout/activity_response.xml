@@ -8,31 +8,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="ly.generalassemb.drewmahrt.bookshelf.MainActivity">
+    tools:context="com.example.generalassembly.intents_lab.ResponseActivity">
 
-
-    <Button
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:id="@+id/completed"
-        android:text="Completed tasks"
-        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:id="@+id/noun_one_view"
         android:textSize="20dp"
-        android:backgroundTint="#f50057"
-        android:onClick="sendMessage"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:padding="10dp"
-        android:textSize="20dp"
-        android:id="@+id/list_item">
-    </ListView>
-        </LinearLayout>
-
+        android:ems="10"/>
 
 </LinearLayout>
